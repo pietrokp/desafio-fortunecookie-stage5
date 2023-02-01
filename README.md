@@ -17,7 +17,7 @@ Projetos e desafios realizados no Stage 5 do Programa Explorer da Rocketseat.
 <br>
 
 <p align="center">
-  <embed src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c9858101-d395-4bf3-a9e7-d1cbec1e093e/Biscoito_da_Sorte.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230201T192043Z&X-Amz-Expires=86400&X-Amz-Signature=dc755852c992d685a418535ba55f9ce173c27b313beddcddaa14d2679d990797&X-Amz-SignedHeaders=host&x-id=GetObject" type="video" width="100%">
+  <video src="./assets/preview.mp4"></video>
 </p>
 
 ## 🚀 Tecnologias

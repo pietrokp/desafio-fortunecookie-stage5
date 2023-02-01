@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+}
+
+.container1,
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 42.8rem;
+    height: 42.4rem;
+    border-radius: .5rem;
+
+    background-color: white;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.8);
+
+    padding: 4.8rem 6.5rem;
+    gap: 1.8rem;
+}
+
+.container1 img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.container2 {
+    height: auto;
+}
+ 
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #34355B;
+
+    text-align: center;
+}
+
+h2,
+button {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    color: #34355B;
+
+    text-align: center;
+}
+
+button {
+    width: 17.5rem;
+    height: 5.5rem;
+
+    background-color: #ff9500;
+
+    color: white;
+    font-weight: 700;
+
+    border: none;
+    border-radius: .5rem;
+}
+
+button:hover {
+    background-color: #df8200;
+}
+
+.text {
+    animation: show-message 2s;
+}
+
+p {
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: center;
+    color: #000000;
+
+    background-color: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+
+    padding: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* animations */
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes show-message {
+    0% {
+        translate: 0 20rem;
+        scale: 0.01;
+        opacity: 0;
+    }
+
+    100% {
+        translate: 0 0;
+        scale: 1;
+        opacity: 1;
+    }
+}
+

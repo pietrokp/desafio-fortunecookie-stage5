@@ -17,9 +17,9 @@ Projetos e desafios realizados no Stage 5 do Programa Explorer da Rocketseat.
 <br>
 
 <p align="center">
-  
 
-https://user-images.githubusercontent.com/117283920/216168659-62dee602-2e18-41f8-b056-bb0486f3d693.mp4
+
+https://user-images.githubusercontent.com/117283920/216168862-e0ac740f-350c-46b7-ada1-1a0cb1b2de09.mp4
 
 
 </p>

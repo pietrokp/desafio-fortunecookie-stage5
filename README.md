@@ -6,6 +6,7 @@ Projetos e desafios realizados no Stage 5 do Programa Explorer da Rocketseat.
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -31,6 +32,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+
+## 💻 Projeto
+
+- [Visite o projeto online](https://pietrokp.github.io/desafio-fortunecookie-stage5/)
 
 ## 🔖 Layout
 

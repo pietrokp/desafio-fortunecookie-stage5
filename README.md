@@ -1,4 +1,4 @@
-<h1 align="center"> Desafio Fortune Cookie - Explorer Stage 5 </h1>
+<h1 align="center"> Desafio Biscoito da Sorte - Explorer Stage 5 </h1>
 
 <p align="center">
 Projetos e desafios realizados no Stage 5 do Programa Explorer da Rocketseat.
